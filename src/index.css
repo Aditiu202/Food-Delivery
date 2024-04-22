@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'outfit';
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.app{
+  width:80%;
+  margin:auto;
+  
+}
+
+.navbar-right{
+  display: flex;
+   justify-content: center;
+   gap:40px;
+}
+
+
+.navbar button{
+ background-color: transparent;
+ font-size: 16px;
+ color: #49557e;
+ border:1px solid #49557e ;
+ padding:10px 30px;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: 0.3sec;
+}
+
+.navbar button:hover{
+  background-color: #fff4f2;
+}
+
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
